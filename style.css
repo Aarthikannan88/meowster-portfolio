@@ -531,4 +531,47 @@ section{
 h1,h2,h3,h4{
     margin-bottom: 10px;
 }
+
+@media(max-width:786px){
+    .contact-container{
+        flex-direction:column;
+        gap: 30px;
+    }
+    .contact-form, .contact-info{
+        min-width: 100%;
+    }
+    .project-details{
+        grid-template-columns: 1fr;
+    }
+    .skill-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill-category{
+        max-width: 100%;
+    }
+    .contact-details{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .contact-form input, .contact-form textarea{
+        padding:14px;
+        font-size: 14px;
+    }
+}
+    
+@media(max-width:768px){
+    body{
+        padding: 10px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
     
